@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">DO</span>
+        </div>
+        <div data-key="90" class="key">
+            <kbd>Z</kbd>
+            <span class="sound">DO STR</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">LA</span>
+        </div>
+        <div data-key="88" class="key">
+            <kbd>X</kbd>
+            <span class="sound">LA STR</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">FA</span>
+        </div>
+        <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">FA STR</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Mİ</span>
+        </div>
+        <div data-key="86" class="key">
+            <kbd>V</kbd>
+            <span class="sound">Mİ STR</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">RE</span>
+        </div>
+        <div data-key="66" class="key">
+            <kbd>B</kbd>
+            <span class="sound">RE STR</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Sİ</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">SOL</span>
+        </div>
+        <div data-key="77" class="key">
+            <kbd>M</kbd>
+            <span class="sound">SOL STR</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/do.wav"></audio>
+    <audio data-key="90" src="sounds/do_str.wav"></audio>
+    <audio data-key="83" src="sounds/la.wav"></audio>
+    <audio data-key="88" src="sounds/la_str.wav"></audio>
+    <audio data-key="68" src="sounds/fa.wav"></audio>
+    <audio data-key="67" src="sounds/fa_str.wav"></audio>
+    <audio data-key="70" src="sounds/mi.wav"></audio>
+    <audio data-key="86" src="sounds/mi_str.wav"></audio>
+    <audio data-key="71" src="sounds/re.wav"></audio>
+    <audio data-key="66" src="sounds/re_str.wav"></audio>
+    <audio data-key="72" src="sounds/si.wav"></audio>
+    <audio data-key="74" src="sounds/sol.wav"></audio>
+    <audio data-key="77" src="sounds/sol_str.wav"></audio>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
